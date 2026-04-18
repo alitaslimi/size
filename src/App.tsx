@@ -7,6 +7,7 @@ import { AnchorBadge } from "./components/AnchorBadge";
 import { ScrollHint } from "./components/ScrollHint";
 import { Minimap } from "./components/Minimap";
 import { AnchorPicker } from "./components/AnchorPicker";
+import { useIsMobile } from "./hooks/useIsMobile";
 import { useUniverse } from "./hooks/useUniverse";
 import type { UniverseItem } from "./lib/universe";
 import { pos, type ScaleMode } from "./lib/scale";
@@ -42,6 +43,7 @@ function App() {
   const [progress, setProgress] = useState(0.5);
   const [showHint, setShowHint] = useState(true);
   const [pickerOpen, setPickerOpen] = useState(false);
+  const isMobile = useIsMobile();
 
   const sceneRef = useRef<ParallaxSceneHandle>(null);
 
@@ -105,25 +107,27 @@ function App() {
   return (
     <>
       <ParallaxScene
-        // Remount when scale or anchor changes so positions recompute
-        // and the scene re-centers on the anchor.
-        key={`${scale}:${anchor}:${allItems.length}`}
+        // Remount when scale, anchor, or viewport mode changes so positions
+        // recompute and the scene re-centers on the anchor.
+        key={`${scale}:${anchor}:${isMobile ? "m" : "d"}:${allItems.length}`}
         ref={sceneRef}
         items={visibleItems}
         anchor={anchor}
         scale={scale}
         initialT={anchorProgress}
         onProgressChange={setProgress}
+        isMobile={isMobile}
       />
-      <Header />
-      <FilterPills filters={filters} onChange={setFilters} />
-      <ScaleToggle scale={scale} onChange={setScale} />
+      <Header isMobile={isMobile} />
+      <FilterPills filters={filters} onChange={setFilters} isMobile={isMobile} />
+      <ScaleToggle scale={scale} onChange={setScale} isMobile={isMobile} />
       <Minimap
         progress={progress}
         anchorProgress={anchorProgress}
         items={allItems}
         scale={scale}
         onJump={(t, instant) => sceneRef.current?.jumpTo(t, instant)}
+        isMobile={isMobile}
       />
       <AnchorBadge anchor={anchor} onClick={() => setPickerOpen((o) => !o)} />
       {pickerOpen && (

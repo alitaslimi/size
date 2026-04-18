@@ -6,6 +6,7 @@ export type FilterState = Record<Exclude<Category, "you">, boolean>;
 interface FilterPillsProps {
   filters: FilterState;
   onChange: (next: FilterState) => void;
+  isMobile?: boolean;
 }
 
 const CATS: Array<{ id: Exclude<Category, "you">; label: string }> = [
@@ -15,15 +16,16 @@ const CATS: Array<{ id: Exclude<Category, "you">; label: string }> = [
   { id: "ref", label: "References" },
 ];
 
-export function FilterPills({ filters, onChange }: FilterPillsProps) {
+export function FilterPills({ filters, onChange, isMobile = false }: FilterPillsProps) {
   return (
     <div
       style={{
         position: "fixed",
-        top: 20,
-        left: 20,
+        top: isMobile ? 48 : 20,
+        left: isMobile ? 12 : 20,
+        right: isMobile ? 12 : undefined,
         display: "flex",
-        gap: 6,
+        gap: 4,
         zIndex: 50,
         background: "var(--cu-surface-blur)",
         backdropFilter: "blur(14px)",
@@ -34,6 +36,8 @@ export function FilterPills({ filters, onChange }: FilterPillsProps) {
         boxShadow:
           "0 1px 2px rgba(0,0,0,0.04), 0 8px 24px rgba(40,30,10,0.04)",
         fontFamily: "var(--font-sans)",
+        overflowX: isMobile ? "auto" : undefined,
+        justifyContent: isMobile ? "space-between" : undefined,
       }}
     >
       {CATS.map((c) => {
@@ -49,8 +53,8 @@ export function FilterPills({ filters, onChange }: FilterPillsProps) {
               background: on ? color : "transparent",
               color: on ? "white" : "oklch(0.35 0.01 60)",
               border: "none",
-              padding: "7px 14px",
-              fontSize: 12,
+              padding: isMobile ? "6px 10px" : "7px 14px",
+              fontSize: isMobile ? 11 : 12,
               fontWeight: 500,
               fontFamily: "inherit",
               borderRadius: 999,
@@ -60,6 +64,7 @@ export function FilterPills({ filters, onChange }: FilterPillsProps) {
               display: "flex",
               alignItems: "center",
               gap: 6,
+              flexShrink: 0,
             }}
           >
             <span

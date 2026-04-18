@@ -3,6 +3,7 @@ import type { ScaleMode } from "../lib/scale";
 interface ScaleToggleProps {
   scale: ScaleMode;
   onChange: (next: ScaleMode) => void;
+  isMobile?: boolean;
 }
 
 const OPTS: Array<{ id: ScaleMode; label: string }> = [
@@ -10,13 +11,13 @@ const OPTS: Array<{ id: ScaleMode; label: string }> = [
   { id: "linear", label: "Linear" },
 ];
 
-export function ScaleToggle({ scale, onChange }: ScaleToggleProps) {
+export function ScaleToggle({ scale, onChange, isMobile = false }: ScaleToggleProps) {
   return (
     <div
       style={{
         position: "fixed",
-        top: 20,
-        right: 112,
+        top: isMobile ? 8 : 20,
+        right: isMobile ? 12 : 112,
         zIndex: 50,
         display: "flex",
         gap: 4,

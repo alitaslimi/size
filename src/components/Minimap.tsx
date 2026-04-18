@@ -11,9 +11,13 @@ interface MinimapProps {
   scale: ScaleMode;
   /** Called when the user clicks/drags to a new position. */
   onJump: (t: number, instant: boolean) => void;
+  isMobile?: boolean;
 }
 
-export function Minimap({ progress, anchorProgress, items, scale, onJump }: MinimapProps) {
+export function Minimap({ progress, anchorProgress, items, scale, onJump, isMobile = false }: MinimapProps) {
+  // On small screens we hide the ruler entirely — the scroll gesture and
+  // tick labels inside the scene carry the scale on their own.
+  if (isMobile) return null;
   const vMin = items[0]?.v ?? 1;
   const vMax = items[items.length - 1]?.v ?? 1;
   const logMin = logv(vMin);

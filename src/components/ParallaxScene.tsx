@@ -24,6 +24,8 @@ interface ParallaxSceneProps {
   initialT?: number;
   /** Called with the current scroll progress in [0, 1]. */
   onProgressChange?: (t: number) => void;
+  /** Mobile layout: stack disc + meta centered, smaller max size. */
+  isMobile?: boolean;
   ref?: Ref<ParallaxSceneHandle>;
 }
 
@@ -49,6 +51,7 @@ export function ParallaxScene({
   scale,
   initialT,
   onProgressChange,
+  isMobile = false,
   ref,
 }: ParallaxSceneProps) {
   const viewRef = useRef<HTMLDivElement | null>(null);
@@ -102,11 +105,11 @@ export function ParallaxScene({
       const gauss = Math.exp(-(dT * dT) / (2 * sigmaT * sigmaT));
       const rankBoost = rankPos === 0 ? 1.0 : rankPos === 1 ? 0.42 : rankPos === 2 ? 0.2 : 0;
       const score = Math.max(gauss, rankBoost);
-      const minSize = 14;
-      const maxSize = 340;
+      const minSize = isMobile ? 10 : 14;
+      const maxSize = isMobile ? 180 : 340;
       return minSize + (maxSize - minSize) * score;
     },
-    [rankOf, vh, maxScrollRange]
+    [rankOf, vh, maxScrollRange, isMobile]
   );
 
   const attachView = useCallback(
@@ -279,10 +282,10 @@ export function ParallaxScene({
             const info = rankOf.get(i);
             const dT = info ? info.dT : 1;
             const isLeft = i % 2 === 0;
-            const xPct = isLeft ? 30 : 70;
+            const xPct = isMobile ? 50 : isLeft ? 30 : 70;
             const sigOp = scale === "linear" ? 0.04 : 0.22;
             const opacity = Math.max(0.18, Math.exp(-(dT * dT) / (2 * sigOp * sigOp)));
-            const gap = Math.max(28, size * 0.08);
+            const gap = isMobile ? Math.max(10, size * 0.06) : Math.max(28, size * 0.08);
             const z = Math.round(size);
             return (
               <div
@@ -294,17 +297,25 @@ export function ParallaxScene({
                   transform: "translate(-50%, -50%)",
                   display: "flex",
                   alignItems: "center",
+                  justifyContent: "center",
                   gap,
-                  flexDirection: isLeft ? "row" : "row-reverse",
+                  flexDirection: isMobile ? "column" : isLeft ? "row" : "row-reverse",
                   opacity,
                   zIndex: z,
                   transition: "opacity 200ms ease",
+                  padding: isMobile ? "0 16px" : 0,
+                  width: isMobile ? "min(100vw, 440px)" : undefined,
                 }}
               >
                 <div style={{ flexShrink: 0 }}>
                   <Disc item={it} size={size} halo={it.category === "you"} />
                 </div>
-                <DiscMeta item={it} anchor={anchor} align={isLeft ? "left" : "right"} />
+                <DiscMeta
+                  item={it}
+                  anchor={anchor}
+                  align={isMobile ? "left" : isLeft ? "left" : "right"}
+                  compact={isMobile}
+                />
               </div>
             );
           })}
