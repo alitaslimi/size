@@ -6,6 +6,7 @@ import { ScaleToggle } from "./components/ScaleToggle";
 import { AnchorBadge } from "./components/AnchorBadge";
 import { ScrollHint } from "./components/ScrollHint";
 import { Minimap } from "./components/Minimap";
+import { AnchorPicker } from "./components/AnchorPicker";
 import { useUniverse } from "./hooks/useUniverse";
 import type { UniverseItem } from "./lib/universe";
 import { pos, type ScaleMode } from "./lib/scale";
@@ -35,11 +36,12 @@ function youItem(anchor: number): UniverseItem {
 
 function App() {
   const { status, items } = useUniverse();
-  const [anchor] = useState(DEFAULT_ANCHOR);
+  const [anchor, setAnchor] = useState(DEFAULT_ANCHOR);
   const [scale, setScale] = useState<ScaleMode>("log");
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [progress, setProgress] = useState(0.5);
   const [showHint, setShowHint] = useState(true);
+  const [pickerOpen, setPickerOpen] = useState(false);
 
   const sceneRef = useRef<ParallaxSceneHandle>(null);
 
@@ -103,8 +105,9 @@ function App() {
   return (
     <>
       <ParallaxScene
-        // Remount when the x-axis scale changes so positions recompute cleanly.
-        key={`${scale}:${allItems.length}`}
+        // Remount when scale or anchor changes so positions recompute
+        // and the scene re-centers on the anchor.
+        key={`${scale}:${anchor}:${allItems.length}`}
         ref={sceneRef}
         items={visibleItems}
         anchor={anchor}
@@ -122,8 +125,15 @@ function App() {
         scale={scale}
         onJump={(t, instant) => sceneRef.current?.jumpTo(t, instant)}
       />
-      <AnchorBadge anchor={anchor} />
-      <ScrollHint visible={showHint} />
+      <AnchorBadge anchor={anchor} onClick={() => setPickerOpen((o) => !o)} />
+      {pickerOpen && (
+        <AnchorPicker
+          anchor={anchor}
+          onChange={setAnchor}
+          onClose={() => setPickerOpen(false)}
+        />
+      )}
+      <ScrollHint visible={showHint && !pickerOpen} />
     </>
   );
 }
