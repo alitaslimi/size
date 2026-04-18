@@ -1,10 +1,23 @@
-import { useMemo, useState } from "react";
-import { ParallaxScene } from "./components/ParallaxScene";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { ParallaxScene, type ParallaxSceneHandle } from "./components/ParallaxScene";
+import { Header } from "./components/Header";
+import { FilterPills, type FilterState } from "./components/FilterPills";
+import { ScaleToggle } from "./components/ScaleToggle";
+import { AnchorBadge } from "./components/AnchorBadge";
+import { ScrollHint } from "./components/ScrollHint";
+import { Minimap } from "./components/Minimap";
 import { useUniverse } from "./hooks/useUniverse";
 import type { UniverseItem } from "./lib/universe";
 import { pos, type ScaleMode } from "./lib/scale";
 
 const DEFAULT_ANCHOR = 1_000_000;
+
+const DEFAULT_FILTERS: FilterState = {
+  coin: true,
+  project: true,
+  person: true,
+  ref: true,
+};
 
 function youItem(anchor: number): UniverseItem {
   return {
@@ -23,21 +36,35 @@ function youItem(anchor: number): UniverseItem {
 function App() {
   const { status, items } = useUniverse();
   const [anchor] = useState(DEFAULT_ANCHOR);
-  const [scale] = useState<ScaleMode>("log");
+  const [scale, setScale] = useState<ScaleMode>("log");
+  const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
+  const [progress, setProgress] = useState(0.5);
+  const [showHint, setShowHint] = useState(true);
 
-  const sceneItems = useMemo(() => {
-    const sorted = [...items, youItem(anchor)].sort((a, b) => a.v - b.v);
-    return sorted;
+  const sceneRef = useRef<ParallaxSceneHandle>(null);
+
+  useEffect(() => {
+    const t = setTimeout(() => setShowHint(false), 4500);
+    return () => clearTimeout(t);
+  }, []);
+
+  const allItems = useMemo(() => {
+    return [...items, youItem(anchor)].sort((a, b) => a.v - b.v);
   }, [items, anchor]);
 
-  const anchorProgress = useMemo(() => {
-    if (sceneItems.length === 0) return 0.5;
-    const vMin = sceneItems[0].v;
-    const vMax = sceneItems[sceneItems.length - 1].v;
-    return pos(anchor, vMin, vMax, scale);
-  }, [sceneItems, anchor, scale]);
+  const visibleItems = useMemo(
+    () => allItems.filter((it) => it.category === "you" || filters[it.category]),
+    [allItems, filters]
+  );
 
-  if (status === "loading" || sceneItems.length === 0) {
+  const anchorProgress = useMemo(() => {
+    if (allItems.length === 0) return 0.5;
+    const vMin = allItems[0].v;
+    const vMax = allItems[allItems.length - 1].v;
+    return pos(anchor, vMin, vMax, scale);
+  }, [allItems, anchor, scale]);
+
+  if (status === "loading" || allItems.length === 0) {
     return (
       <div
         style={{
@@ -74,12 +101,30 @@ function App() {
   }
 
   return (
-    <ParallaxScene
-      items={sceneItems}
-      anchor={anchor}
-      scale={scale}
-      initialT={anchorProgress}
-    />
+    <>
+      <ParallaxScene
+        // Remount when the x-axis scale changes so positions recompute cleanly.
+        key={`${scale}:${allItems.length}`}
+        ref={sceneRef}
+        items={visibleItems}
+        anchor={anchor}
+        scale={scale}
+        initialT={anchorProgress}
+        onProgressChange={setProgress}
+      />
+      <Header />
+      <FilterPills filters={filters} onChange={setFilters} />
+      <ScaleToggle scale={scale} onChange={setScale} />
+      <Minimap
+        progress={progress}
+        anchorProgress={anchorProgress}
+        items={allItems}
+        scale={scale}
+        onJump={(t, instant) => sceneRef.current?.jumpTo(t, instant)}
+      />
+      <AnchorBadge anchor={anchor} />
+      <ScrollHint visible={showHint} />
+    </>
   );
 }
 
