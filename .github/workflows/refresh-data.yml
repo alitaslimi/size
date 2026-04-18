@@ -1,0 +1,55 @@
+name: Refresh data
+
+on:
+  schedule:
+    # Once a day at 06:00 UTC — CoinGecko's free tier is generous enough and
+    # the visualization doesn't need tick-level freshness.
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install
+        run: npm ci
+
+      - name: Fetch coins (CoinGecko)
+        run: npm run data:coins
+
+      - name: Fetch people (Forbes + fallback)
+        run: npm run data:people
+
+      - name: Build references
+        run: npm run data:references
+
+      - name: Merge universe
+        run: npm run data:merge
+
+      - name: Commit data
+        run: |
+          git config user.name "data-bot"
+          git config user.email "data-bot@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "no data changes"
+            exit 0
+          fi
+          git commit -m "data: refresh universe $(date -u +%Y-%m-%d)"
+          git push

@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-04-18T17:31:30.212Z",
+  "count": 8,
+  "items": [
+    {
+      "id": "person-elon-musk",
+      "name": "Elon Musk",
+      "v": 795723274000,
+      "category": "person",
+      "kind": "net-worth",
+      "label": "Tesla, SpaceX",
+      "note": "Forbes Real-Time Billionaires",
+      "image": "https://specials-images.forbesimg.com/imageserve/62d700cd6094d2c180f269b9/416x416.jpg?background=000000&cropX1=0&cropX2=959&cropY1=0&cropY2=959",
+      "tags": [
+        "billionaire"
+      ],
+      "source": {
+        "kind": "forbes",
+        "uri": "elon-musk"
+      },
+      "updatedAt": "2026-04-18T17:31:30.212Z"
+    },
+    {
+      "id": "person-jeff-bezos",
+      "name": "Jeff Bezos",
+      "v": 259524133000,
+      "category": "person",
+      "kind": "net-worth",
+      "label": "Amazon",
+      "note": "Forbes Real-Time Billionaires",
+      "image": "https://specials-images.forbesimg.com/imageserve/67531eb2b5f7c9e191f632d7/416x416.jpg?background=000000&cropX1=316&cropX2=1027&cropY1=125&cropY2=838",
+      "tags": [
+        "billionaire"
+      ],
+      "source": {
+        "kind": "forbes",
+        "uri": "jeff-bezos"
+      },
+      "updatedAt": "2026-04-18T17:31:30.212Z"
+    },
+    {
+      "id": "person-mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "v": 235989113000,
+      "category": "person",
+      "kind": "net-worth",
+      "label": "Facebook",
+      "note": "Forbes Real-Time Billionaires",
+      "image": "https://specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401",
+      "tags": [
+        "billionaire"
+      ],
+      "source": {
+        "kind": "forbes",
+        "uri": "mark-zuckerberg"
+      },
+      "updatedAt": "2026-04-18T17:31:30.212Z"
+    },
+    {
+      "id": "person-larry-ellison",
+      "name": "Larry Ellison",
+      "v": 221145522000,
+      "category": "person",
+      "kind": "net-worth",
+      "label": "Oracle",
+      "note": "Forbes Real-Time Billionaires",
+      "image": "https://specials-images.forbesimg.com/imageserve/5e8b62cfc095010007bffea0/416x416.jpg?background=000000&cropX1=0&cropX2=4529&cropY1=652&cropY2=5184",
+      "tags": [
+        "billionaire"
+      ],
+      "source": {
+        "kind": "forbes",
+        "uri": "larry-ellison"
+      },
+      "updatedAt": "2026-04-18T17:31:30.212Z"
+    },
+    {
+      "id": "person-satoshi-wallets",
+      "name": "Satoshi's early wallets",
+      "v": 120000000,
+      "category": "person",
+      "kind": "wallet-balance",
+      "label": "dormant since 2010",
+      "note": "on-chain, unmoved",
+      "source": {
+        "kind": "curated"
+      },
+      "tags": [
+        "crypto",
+        "on-chain"
+      ],
+      "updatedAt": "2026-04-18T17:31:30.212Z"
+    },
+    {
+      "id": "person-vitalik",
+      "name": "Vitalik Buterin",
+      "v": 450000000,
+      "category": "person",
+      "kind": "wallet-balance",
+      "label": "public wallet + holdings",
+      "note": "public ETH wallet",
+      "source": {
+        "kind": "curated"
+      },
+      "tags": [
+        "crypto",
+        "founder"
+      ],
+      "updatedAt": "2026-04-18T17:31:30.212Z"
+    },
+    {
+      "id": "person-cz",
+      "name": "CZ",
+      "v": 2100000000,
+      "category": "person",
+      "kind": "net-worth",
+      "label": "Binance founder, est. liquid",
+      "note": "public estimate",
+      "source": {
+        "kind": "curated"
+      },
+      "tags": [
+        "crypto",
+        "founder"
+      ],
+      "updatedAt": "2026-04-18T17:31:30.212Z"
+    },
+    {
+      "id": "person-bernard-arnault",
+      "name": "Bernard Arnault",
+      "v": 180000000000,
+      "category": "person",
+      "kind": "net-worth",
+      "label": "LVMH founder",
+      "note": "net worth est.",
+      "source": {
+        "kind": "curated"
+      },
+      "tags": [
+        "billionaire"
+      ],
+      "updatedAt": "2026-04-18T17:31:30.212Z"
+    }
+  ]
+}

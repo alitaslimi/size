@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-04-18T17:30:32.525Z",
+  "count": 14,
+  "items": [
+    {
+      "id": "coin-shiba-inu",
+      "name": "SHIB",
+      "v": 0.00000607,
+      "category": "coin",
+      "kind": "price",
+      "label": "Shiba Inu · 1 token",
+      "note": "per-token price",
+      "image": "https://coin-images.coingecko.com/coins/images/11939/large/shiba.png?1696511800",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "shiba-inu"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-pepe",
+      "name": "PEPE",
+      "v": 0.0000038,
+      "category": "coin",
+      "kind": "price",
+      "label": "Pepe · 1 token",
+      "note": "per-token price",
+      "image": "https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "pepe"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-dogecoin-price",
+      "name": "DOGE",
+      "v": 0.095576,
+      "category": "coin",
+      "kind": "price",
+      "label": "Dogecoin · 1 token",
+      "note": "per-token price",
+      "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "dogecoin"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-solana-price",
+      "name": "SOL",
+      "v": 86.73,
+      "category": "coin",
+      "kind": "price",
+      "label": "Solana · 1 token",
+      "note": "per-token price",
+      "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "solana"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-ethereum-price",
+      "name": "ETH",
+      "v": 2361.71,
+      "category": "coin",
+      "kind": "price",
+      "label": "Ethereum · 1 token",
+      "note": "per-token price",
+      "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "ethereum"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-bitcoin-price",
+      "name": "BTC",
+      "v": 75874,
+      "category": "coin",
+      "kind": "price",
+      "label": "Bitcoin · 1 token",
+      "note": "per-token price",
+      "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "bitcoin"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-aave",
+      "name": "Aave",
+      "v": 1697015865,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "market cap",
+      "note": "DeFi blue chip",
+      "image": "https://coin-images.coingecko.com/coins/images/12645/large/aave-token-round.png?1720472354",
+      "tags": [
+        "defi"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "aave"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-dogecoin-mcap",
+      "name": "Dogecoin",
+      "v": 14705195792,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "market cap",
+      "note": "memecoin index",
+      "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "dogecoin"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-ripple",
+      "name": "XRP",
+      "v": 88173882708,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "market cap",
+      "note": "payments rail",
+      "image": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
+      "tags": [
+        "payments"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "ripple"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-solana-mcap",
+      "name": "Solana",
+      "v": 49877857297,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "market cap",
+      "note": "L1",
+      "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "solana"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-usd-coin",
+      "name": "USDC",
+      "v": 78507443072.97646,
+      "category": "coin",
+      "kind": "circulating-supply",
+      "label": "circulating supply",
+      "note": "stablecoin",
+      "image": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602",
+      "tags": [
+        "stablecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "usd-coin"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-tether",
+      "name": "Tether",
+      "v": 186612136570.0389,
+      "category": "coin",
+      "kind": "circulating-supply",
+      "label": "circulating supply",
+      "note": "stablecoin",
+      "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+      "tags": [
+        "stablecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "tether"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-ethereum-mcap",
+      "name": "Ethereum",
+      "v": 284933393726,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "total market cap",
+      "note": "L1",
+      "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "ethereum"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    },
+    {
+      "id": "coin-bitcoin-mcap",
+      "name": "Bitcoin",
+      "v": 1518837425654,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "total market cap",
+      "note": "digital gold",
+      "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "bitcoin"
+      },
+      "updatedAt": "2026-04-18T17:30:32.525Z"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-04-18T17:30:35.976Z",
+  "count": 16,
+  "items": [
+    {
+      "id": "ref-shrimp-dust",
+      "name": "Shrimp dust",
+      "v": 1e-7,
+      "category": "ref",
+      "kind": "reference",
+      "label": "a single satoshi's shadow",
+      "note": "smallest meaningful crypto unit",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-penny",
+      "name": "A penny",
+      "v": 0.01,
+      "category": "ref",
+      "kind": "reference",
+      "label": "one US cent",
+      "note": "human reference",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-burrito",
+      "name": "A burrito",
+      "v": 12,
+      "category": "ref",
+      "kind": "reference",
+      "label": "lunch",
+      "note": "human reference",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-avg-wallet",
+      "name": "Avg wallet",
+      "v": 1000,
+      "category": "ref",
+      "kind": "reference",
+      "label": "median active wallet",
+      "note": "on-chain estimate",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-top-1pct-wallet",
+      "name": "Top 1% wallet",
+      "v": 250000,
+      "category": "ref",
+      "kind": "reference",
+      "label": "US household, top 1%",
+      "note": "net worth cutoff",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-seed-check",
+      "name": "Avg VC seed check",
+      "v": 25000000,
+      "category": "ref",
+      "kind": "reference",
+      "label": "2026 seed round",
+      "note": "reference anchor",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-nft-record",
+      "name": "Bored Ape #8817",
+      "v": 5000000,
+      "category": "project",
+      "kind": "reference",
+      "label": "highest NFT sale",
+      "note": "single-asset record",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-italy-gdp",
+      "name": "Italy GDP",
+      "v": 2100000000000,
+      "category": "ref",
+      "kind": "gdp",
+      "label": "annual GDP",
+      "note": "country reference",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-japan-gdp",
+      "name": "Japan GDP",
+      "v": 4700000000000,
+      "category": "ref",
+      "kind": "gdp",
+      "label": "annual GDP",
+      "note": "country reference",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-china-gdp",
+      "name": "China GDP",
+      "v": 19800000000000,
+      "category": "ref",
+      "kind": "gdp",
+      "label": "annual GDP",
+      "note": "country reference",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-usa-gdp",
+      "name": "USA GDP",
+      "v": 29500000000000,
+      "category": "ref",
+      "kind": "gdp",
+      "label": "annual GDP",
+      "note": "country reference",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-world-gdp",
+      "name": "World GDP",
+      "v": 110000000000000,
+      "category": "ref",
+      "kind": "gdp",
+      "label": "global annual GDP",
+      "note": "planetary scale",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-global-wealth",
+      "name": "Global wealth",
+      "v": 900000000000000,
+      "category": "ref",
+      "kind": "reference",
+      "label": "all assets, all people",
+      "note": "estimate",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-apple-mcap",
+      "name": "Apple",
+      "v": 4200000000000,
+      "category": "ref",
+      "kind": "market-cap",
+      "label": "market cap",
+      "note": "for scale",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-gold",
+      "name": "All gold mined",
+      "v": 13500000000000,
+      "category": "ref",
+      "kind": "reference",
+      "label": "ever, worldwide",
+      "note": "~213,000 tonnes",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    },
+    {
+      "id": "ref-uniswap-treasury",
+      "name": "Uniswap Treasury",
+      "v": 800000000,
+      "category": "project",
+      "kind": "treasury",
+      "label": "DAO treasury",
+      "note": "on-chain",
+      "source": {
+        "kind": "curated"
+      },
+      "updatedAt": "2026-04-18T17:30:35.976Z"
+    }
+  ]
+}
