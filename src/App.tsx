@@ -1,59 +1,51 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { ParallaxScene, type ParallaxSceneHandle } from "./components/ParallaxScene";
+import { ZoomScene, type ZoomSceneHandle } from "./components/ZoomScene";
 import { Header } from "./components/Header";
 import { FilterPills, type FilterState } from "./components/FilterPills";
-import { ScaleToggle } from "./components/ScaleToggle";
-import { AnchorBadge } from "./components/AnchorBadge";
 import { ScrollHint } from "./components/ScrollHint";
 import { Minimap } from "./components/Minimap";
-import { AnchorPicker } from "./components/AnchorPicker";
 import { useIsMobile } from "./hooks/useIsMobile";
 import { useUniverse } from "./hooks/useUniverse";
 import { readUrlState, useUrlState, type AppUrlState } from "./hooks/useUrlState";
 import type { UniverseItem } from "./lib/universe";
-import { pos, type ScaleMode } from "./lib/scale";
+import { pos } from "./lib/scale";
+
+const YOU_VALUE = 10_000;
 
 const DEFAULTS: AppUrlState = {
-  anchor: 1_000_000,
+  anchor: YOU_VALUE,
   scale: "log",
   filters: { coin: true, project: true, person: true, ref: true },
 };
 
-function youItem(anchor: number): UniverseItem {
-  return {
-    id: "you",
-    name: "YOU",
-    v: anchor,
-    category: "you",
-    kind: "reference",
-    label: "your size",
-    note: "let's say you're a millionaire",
-    source: { kind: "user" },
-    updatedAt: new Date().toISOString(),
-  };
-}
+const YOU: UniverseItem = {
+  id: "you",
+  name: "YOU",
+  v: YOU_VALUE,
+  category: "you",
+  kind: "reference",
+  label: "your size",
+  note: "your size is not size",
+  source: { kind: "user" },
+  updatedAt: new Date(0).toISOString(),
+};
 
 function App() {
   const { status, items } = useUniverse();
   const initial = useMemo(() => readUrlState(DEFAULTS), []);
 
-  const [anchor, setAnchor] = useState<number>(initial.anchor);
-  const [scale, setScale] = useState<ScaleMode>(initial.scale);
   const [filters, setFilters] = useState<FilterState>(initial.filters);
   const [progress, setProgress] = useState(0.5);
   const [showHint, setShowHint] = useState(true);
-  const [pickerOpen, setPickerOpen] = useState(false);
   const isMobile = useIsMobile();
 
-  const sceneRef = useRef<ParallaxSceneHandle>(null);
+  const sceneRef = useRef<ZoomSceneHandle>(null);
 
   const onPopState = useCallback((next: AppUrlState) => {
-    setAnchor(next.anchor);
-    setScale(next.scale);
     setFilters(next.filters);
   }, []);
 
-  useUrlState({ anchor, scale, filters }, DEFAULTS, onPopState);
+  useUrlState({ anchor: YOU_VALUE, scale: "log", filters }, DEFAULTS, onPopState);
 
   useEffect(() => {
     const t = setTimeout(() => setShowHint(false), 4500);
@@ -61,20 +53,20 @@ function App() {
   }, []);
 
   const allItems = useMemo(() => {
-    return [...items, youItem(anchor)].sort((a, b) => a.v - b.v);
-  }, [items, anchor]);
+    return [...items, YOU].sort((a, b) => a.v - b.v);
+  }, [items]);
 
   const visibleItems = useMemo(
     () => allItems.filter((it) => it.category === "you" || filters[it.category]),
     [allItems, filters]
   );
 
-  const anchorProgress = useMemo(() => {
+  const youProgress = useMemo(() => {
     if (allItems.length === 0) return 0.5;
     const vMin = allItems[0].v;
     const vMax = allItems[allItems.length - 1].v;
-    return pos(anchor, vMin, vMax, scale);
-  }, [allItems, anchor, scale]);
+    return pos(YOU_VALUE, vMin, vMax, "log");
+  }, [allItems]);
 
   if (status === "loading" || allItems.length === 0) {
     return (
@@ -117,38 +109,25 @@ function App() {
 
   return (
     <main>
-      <ParallaxScene
-        // Remount when scale, anchor, or viewport mode changes so positions
-        // recompute and the scene re-centers on the anchor.
-        key={`${scale}:${anchor}:${isMobile ? "m" : "d"}:${allItems.length}`}
+      <ZoomScene
+        key={`${isMobile ? "m" : "d"}:${allItems.length}`}
         ref={sceneRef}
         items={visibleItems}
-        anchor={anchor}
-        scale={scale}
-        initialT={anchorProgress}
+        initialT={youProgress}
         onProgressChange={setProgress}
         isMobile={isMobile}
       />
       <Header isMobile={isMobile} />
       <FilterPills filters={filters} onChange={setFilters} isMobile={isMobile} />
-      <ScaleToggle scale={scale} onChange={setScale} isMobile={isMobile} />
       <Minimap
         progress={progress}
-        anchorProgress={anchorProgress}
+        anchorProgress={youProgress}
         items={allItems}
-        scale={scale}
+        scale="log"
         onJump={(t, instant) => sceneRef.current?.jumpTo(t, instant)}
         isMobile={isMobile}
       />
-      <AnchorBadge anchor={anchor} onClick={() => setPickerOpen((o) => !o)} />
-      {pickerOpen && (
-        <AnchorPicker
-          anchor={anchor}
-          onChange={setAnchor}
-          onClose={() => setPickerOpen(false)}
-        />
-      )}
-      <ScrollHint visible={showHint && !pickerOpen} />
+      <ScrollHint visible={showHint} />
     </main>
   );
 }

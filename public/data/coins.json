@@ -1,105 +1,15 @@
 {
-  "generatedAt": "2026-04-18T17:30:32.525Z",
-  "count": 14,
+  "generatedAt": "2026-04-18T18:44:32.273Z",
+  "count": 200,
   "items": [
     {
-      "id": "coin-shiba-inu",
-      "name": "SHIB",
-      "v": 0.00000607,
+      "id": "coin-bitcoin",
+      "name": "Bitcoin",
+      "v": 1512334341994,
       "category": "coin",
-      "kind": "price",
-      "label": "Shiba Inu · 1 token",
-      "note": "per-token price",
-      "image": "https://coin-images.coingecko.com/coins/images/11939/large/shiba.png?1696511800",
-      "tags": [
-        "memecoin"
-      ],
-      "source": {
-        "kind": "coingecko",
-        "id": "shiba-inu"
-      },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
-    },
-    {
-      "id": "coin-pepe",
-      "name": "PEPE",
-      "v": 0.0000038,
-      "category": "coin",
-      "kind": "price",
-      "label": "Pepe · 1 token",
-      "note": "per-token price",
-      "image": "https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776",
-      "tags": [
-        "memecoin"
-      ],
-      "source": {
-        "kind": "coingecko",
-        "id": "pepe"
-      },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
-    },
-    {
-      "id": "coin-dogecoin-price",
-      "name": "DOGE",
-      "v": 0.095576,
-      "category": "coin",
-      "kind": "price",
-      "label": "Dogecoin · 1 token",
-      "note": "per-token price",
-      "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
-      "tags": [
-        "memecoin"
-      ],
-      "source": {
-        "kind": "coingecko",
-        "id": "dogecoin"
-      },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
-    },
-    {
-      "id": "coin-solana-price",
-      "name": "SOL",
-      "v": 86.73,
-      "category": "coin",
-      "kind": "price",
-      "label": "Solana · 1 token",
-      "note": "per-token price",
-      "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
-      "tags": [
-        "L1"
-      ],
-      "source": {
-        "kind": "coingecko",
-        "id": "solana"
-      },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
-    },
-    {
-      "id": "coin-ethereum-price",
-      "name": "ETH",
-      "v": 2361.71,
-      "category": "coin",
-      "kind": "price",
-      "label": "Ethereum · 1 token",
-      "note": "per-token price",
-      "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
-      "tags": [
-        "L1"
-      ],
-      "source": {
-        "kind": "coingecko",
-        "id": "ethereum"
-      },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
-    },
-    {
-      "id": "coin-bitcoin-price",
-      "name": "BTC",
-      "v": 75874,
-      "category": "coin",
-      "kind": "price",
-      "label": "Bitcoin · 1 token",
-      "note": "per-token price",
+      "kind": "market-cap",
+      "label": "#1 · market cap",
+      "note": "BTC",
       "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
       "tags": [
         "L1"
@@ -108,106 +18,34 @@
         "kind": "coingecko",
         "id": "bitcoin"
       },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
+      "updatedAt": "2026-04-18T18:44:32.273Z"
     },
     {
-      "id": "coin-aave",
-      "name": "Aave",
-      "v": 1697015865,
+      "id": "coin-ethereum",
+      "name": "Ethereum",
+      "v": 283236916469,
       "category": "coin",
       "kind": "market-cap",
-      "label": "market cap",
-      "note": "DeFi blue chip",
-      "image": "https://coin-images.coingecko.com/coins/images/12645/large/aave-token-round.png?1720472354",
-      "tags": [
-        "defi"
-      ],
-      "source": {
-        "kind": "coingecko",
-        "id": "aave"
-      },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
-    },
-    {
-      "id": "coin-dogecoin-mcap",
-      "name": "Dogecoin",
-      "v": 14705195792,
-      "category": "coin",
-      "kind": "market-cap",
-      "label": "market cap",
-      "note": "memecoin index",
-      "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
-      "tags": [
-        "memecoin"
-      ],
-      "source": {
-        "kind": "coingecko",
-        "id": "dogecoin"
-      },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
-    },
-    {
-      "id": "coin-ripple",
-      "name": "XRP",
-      "v": 88173882708,
-      "category": "coin",
-      "kind": "market-cap",
-      "label": "market cap",
-      "note": "payments rail",
-      "image": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
-      "tags": [
-        "payments"
-      ],
-      "source": {
-        "kind": "coingecko",
-        "id": "ripple"
-      },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
-    },
-    {
-      "id": "coin-solana-mcap",
-      "name": "Solana",
-      "v": 49877857297,
-      "category": "coin",
-      "kind": "market-cap",
-      "label": "market cap",
-      "note": "L1",
-      "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
+      "label": "#2 · market cap",
+      "note": "ETH",
+      "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "tags": [
         "L1"
       ],
       "source": {
         "kind": "coingecko",
-        "id": "solana"
+        "id": "ethereum"
       },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
-    },
-    {
-      "id": "coin-usd-coin",
-      "name": "USDC",
-      "v": 78507443072.97646,
-      "category": "coin",
-      "kind": "circulating-supply",
-      "label": "circulating supply",
-      "note": "stablecoin",
-      "image": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602",
-      "tags": [
-        "stablecoin"
-      ],
-      "source": {
-        "kind": "coingecko",
-        "id": "usd-coin"
-      },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
+      "updatedAt": "2026-04-18T18:44:32.273Z"
     },
     {
       "id": "coin-tether",
       "name": "Tether",
-      "v": 186612136570.0389,
+      "v": 186640100071,
       "category": "coin",
-      "kind": "circulating-supply",
-      "label": "circulating supply",
-      "note": "stablecoin",
+      "kind": "market-cap",
+      "label": "#3 · market cap",
+      "note": "USDT",
       "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
       "tags": [
         "stablecoin"
@@ -216,43 +54,3201 @@
         "kind": "coingecko",
         "id": "tether"
       },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
+      "updatedAt": "2026-04-18T18:44:32.273Z"
     },
     {
-      "id": "coin-ethereum-mcap",
-      "name": "Ethereum",
-      "v": 284933393726,
+      "id": "coin-ripple",
+      "name": "XRP",
+      "v": 87750820934,
       "category": "coin",
       "kind": "market-cap",
-      "label": "total market cap",
-      "note": "L1",
-      "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "label": "#4 · market cap",
+      "note": "XRP",
+      "image": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ripple"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-binancecoin",
+      "name": "BNB",
+      "v": 84988876935,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#5 · market cap",
+      "note": "BNB",
+      "image": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "binancecoin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-usd-coin",
+      "name": "USDC",
+      "v": 78508837249,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#6 · market cap",
+      "note": "USDC",
+      "image": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602",
+      "tags": [
+        "stablecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "usd-coin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-solana",
+      "name": "Solana",
+      "v": 49450891234,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#7 · market cap",
+      "note": "SOL",
+      "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
       "tags": [
         "L1"
       ],
       "source": {
         "kind": "coingecko",
-        "id": "ethereum"
+        "id": "solana"
       },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
+      "updatedAt": "2026-04-18T18:44:32.273Z"
     },
     {
-      "id": "coin-bitcoin-mcap",
-      "name": "Bitcoin",
-      "v": 1518837425654,
+      "id": "coin-tron",
+      "name": "TRON",
+      "v": 31231585695,
       "category": "coin",
       "kind": "market-cap",
-      "label": "total market cap",
-      "note": "digital gold",
-      "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+      "label": "#8 · market cap",
+      "note": "TRX",
+      "image": "https://coin-images.coingecko.com/coins/images/1094/large/photo_2026-04-13_09-59-16.png?1776048311",
       "tags": [
         "L1"
       ],
       "source": {
         "kind": "coingecko",
-        "id": "bitcoin"
+        "id": "tron"
       },
-      "updatedAt": "2026-04-18T17:30:32.525Z"
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-figure-heloc",
+      "name": "Figure Heloc",
+      "v": 17044815932,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#9 · market cap",
+      "note": "FIGR_HELOC",
+      "image": "https://coin-images.coingecko.com/coins/images/68480/large/figure.png?1755863954",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "figure-heloc"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-dogecoin",
+      "name": "Dogecoin",
+      "v": 14540658444,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#10 · market cap",
+      "note": "DOGE",
+      "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "dogecoin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-whitebit",
+      "name": "WhiteBIT Coin",
+      "v": 11727651792,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#11 · market cap",
+      "note": "WBT",
+      "image": "https://coin-images.coingecko.com/coins/images/27045/large/wbt_token.png?1696526096",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "whitebit"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-usds",
+      "name": "USDS",
+      "v": 11373410587,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#12 · market cap",
+      "note": "USDS",
+      "image": "https://coin-images.coingecko.com/coins/images/39926/large/usds.webp?1726666683",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "usds"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-hyperliquid",
+      "name": "Hyperliquid",
+      "v": 10507708341,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#13 · market cap",
+      "note": "HYPE",
+      "image": "https://coin-images.coingecko.com/coins/images/50882/large/hyperliquid.jpg?1729431300",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "hyperliquid"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-leo-token",
+      "name": "LEO Token",
+      "v": 9344808652,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#14 · market cap",
+      "note": "LEO",
+      "image": "https://coin-images.coingecko.com/coins/images/8418/large/leo-token.png?1696508607",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "leo-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-cardano",
+      "name": "Cardano",
+      "v": 9160094551,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#15 · market cap",
+      "note": "ADA",
+      "image": "https://coin-images.coingecko.com/coins/images/975/large/cardano.png?1696502090",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "cardano"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-bitcoin-cash",
+      "name": "Bitcoin Cash",
+      "v": 8901615740,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#16 · market cap",
+      "note": "BCH",
+      "image": "https://coin-images.coingecko.com/coins/images/780/large/bitcoin-cash-circle.png?1696501932",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "bitcoin-cash"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-chainlink",
+      "name": "Chainlink",
+      "v": 6751674059,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#17 · market cap",
+      "note": "LINK",
+      "image": "https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "chainlink"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-memecore",
+      "name": "MemeCore",
+      "v": 6652076987,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#18 · market cap",
+      "note": "M",
+      "image": "https://coin-images.coingecko.com/coins/images/53247/large/square-bg-transparent.png?1752637478",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "memecore"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-monero",
+      "name": "Monero",
+      "v": 6404288959,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#19 · market cap",
+      "note": "XMR",
+      "image": "https://coin-images.coingecko.com/coins/images/69/large/monero_logo.png?1696501460",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "monero"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ethena-usde",
+      "name": "Ethena USDe",
+      "v": 5831510026,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#20 · market cap",
+      "note": "USDE",
+      "image": "https://coin-images.coingecko.com/coins/images/33613/large/usde.png?1733810059",
+      "tags": [
+        "stablecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "ethena-usde"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-canton-network",
+      "name": "Canton",
+      "v": 5595357821,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#21 · market cap",
+      "note": "CC",
+      "image": "https://coin-images.coingecko.com/coins/images/70468/large/Canton-Ticker_%281%29.png?1762826299",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "canton-network"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-stellar",
+      "name": "Stellar",
+      "v": 5567683240,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#22 · market cap",
+      "note": "XLM",
+      "image": "https://coin-images.coingecko.com/coins/images/100/large/fmpFRHHQ_400x400.jpg?1735231350",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "stellar"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-zcash",
+      "name": "Zcash",
+      "v": 5362549173,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#23 · market cap",
+      "note": "ZEC",
+      "image": "https://coin-images.coingecko.com/coins/images/486/large/circle-zcash-color.png?1696501740",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "zcash"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-dai",
+      "name": "Dai",
+      "v": 4327331554,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#24 · market cap",
+      "note": "DAI",
+      "image": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996",
+      "tags": [
+        "stablecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "dai"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-litecoin",
+      "name": "Litecoin",
+      "v": 4280761290,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#25 · market cap",
+      "note": "LTC",
+      "image": "https://coin-images.coingecko.com/coins/images/2/large/litecoin.png?1696501400",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "litecoin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-usd1-wlfi",
+      "name": "USD1",
+      "v": 4200340220,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#26 · market cap",
+      "note": "USD1",
+      "image": "https://coin-images.coingecko.com/coins/images/54977/large/USD1_1000x1000_transparent.png?1749297002",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "usd1-wlfi"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-paypal-usd",
+      "name": "PayPal USD",
+      "v": 4112335253,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#27 · market cap",
+      "note": "PYUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/31212/large/PYUSD_Token_Logo_2x.png?1765987788",
+      "tags": [
+        "stablecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "paypal-usd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-avalanche-2",
+      "name": "Avalanche",
+      "v": 4027756870,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#28 · market cap",
+      "note": "AVAX",
+      "image": "https://coin-images.coingecko.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png?1696512369",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "avalanche-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-hedera-hashgraph",
+      "name": "Hedera",
+      "v": 3831825106,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#29 · market cap",
+      "note": "HBAR",
+      "image": "https://coin-images.coingecko.com/coins/images/3688/large/hbar.png?1696504364",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "hedera-hashgraph"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-sui",
+      "name": "Sui",
+      "v": 3767789745,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#30 · market cap",
+      "note": "SUI",
+      "image": "https://coin-images.coingecko.com/coins/images/26375/large/sui-ocean-square.png?1727791290",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "sui"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-rain",
+      "name": "Rain",
+      "v": 3680912202,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#31 · market cap",
+      "note": "RAIN",
+      "image": "https://coin-images.coingecko.com/coins/images/69134/large/Rain_logo_1_.png?1762952191",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "rain"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-shiba-inu",
+      "name": "Shiba Inu",
+      "v": 3559767651,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#32 · market cap",
+      "note": "SHIB",
+      "image": "https://coin-images.coingecko.com/coins/images/11939/large/shiba.png?1696511800",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "shiba-inu"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-the-open-network",
+      "name": "Toncoin",
+      "v": 3388183820,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#33 · market cap",
+      "note": "TON",
+      "image": "https://coin-images.coingecko.com/coins/images/17980/large/photo_2024-09-10_17.09.00.jpeg?1725963446",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "the-open-network"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-crypto-com-chain",
+      "name": "Cronos",
+      "v": 3048996854,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#34 · market cap",
+      "note": "CRO",
+      "image": "https://coin-images.coingecko.com/coins/images/7310/large/cro_token_logo.png?1696507599",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "crypto-com-chain"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-hashnote-usyc",
+      "name": "Circle USYC",
+      "v": 2917316871,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#35 · market cap",
+      "note": "USYC",
+      "image": "https://coin-images.coingecko.com/coins/images/51054/large/Hashnote_SDYC_200x200.png?1730370965",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "hashnote-usyc"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-tether-gold",
+      "name": "Tether Gold",
+      "v": 2678695892,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#36 · market cap",
+      "note": "XAUT",
+      "image": "https://coin-images.coingecko.com/coins/images/10481/large/logo.png?1774627372",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "tether-gold"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-world-liberty-financial",
+      "name": "World Liberty Financial",
+      "v": 2501784115,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#37 · market cap",
+      "note": "WLFI",
+      "image": "https://coin-images.coingecko.com/coins/images/50767/large/wlfi.png?1756438915",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "world-liberty-financial"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-blackrock-usd-institutional-digital-liquidity-fund",
+      "name": "BlackRock USD Institutional Digital Liquidity Fund",
+      "v": 2495154987,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#38 · market cap",
+      "note": "BUIDL",
+      "image": "https://coin-images.coingecko.com/coins/images/36291/large/blackrock.png?1711013223",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "blackrock-usd-institutional-digital-liquidity-fund"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-pax-gold",
+      "name": "PAX Gold",
+      "v": 2362037798,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#39 · market cap",
+      "note": "PAXG",
+      "image": "https://coin-images.coingecko.com/coins/images/9519/large/paxgold.png?1696509604",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "pax-gold"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-bittensor",
+      "name": "Bittensor",
+      "v": 2348152690,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#40 · market cap",
+      "note": "TAO",
+      "image": "https://coin-images.coingecko.com/coins/images/28452/large/ARUsPeNQ_400x400.jpeg?1696527447",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "bittensor"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-global-dollar",
+      "name": "Global Dollar",
+      "v": 2273437833,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#41 · market cap",
+      "note": "USDG",
+      "image": "https://coin-images.coingecko.com/coins/images/51281/large/GDN_USDG_Token_200x200.png?1730484111",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "global-dollar"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-mantle",
+      "name": "Mantle",
+      "v": 2172454173,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#42 · market cap",
+      "note": "MNT",
+      "image": "https://coin-images.coingecko.com/coins/images/30980/large/MNT_Token_Logo.png?1765516974",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "mantle"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-polkadot",
+      "name": "Polkadot",
+      "v": 2141143171,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#43 · market cap",
+      "note": "DOT",
+      "image": "https://coin-images.coingecko.com/coins/images/12171/large/polkadot.jpg?1766533446",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "polkadot"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-uniswap",
+      "name": "Uniswap",
+      "v": 2114520259,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#44 · market cap",
+      "note": "UNI",
+      "image": "https://coin-images.coingecko.com/coins/images/12504/large/uniswap-logo.png?1720676669",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "uniswap"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-falcon-finance",
+      "name": "Falcon USD",
+      "v": 1786229436,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#45 · market cap",
+      "note": "USDF",
+      "image": "https://coin-images.coingecko.com/coins/images/54558/large/ff_200_X_200.png?1740741076",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "falcon-finance"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-sky",
+      "name": "Sky",
+      "v": 1768430911,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#46 · market cap",
+      "note": "SKY",
+      "image": "https://coin-images.coingecko.com/coins/images/39925/large/sky.jpg?1724827980",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "sky"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-okb",
+      "name": "OKB",
+      "v": 1766092571,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#47 · market cap",
+      "note": "OKB",
+      "image": "https://coin-images.coingecko.com/coins/images/4463/large/WeChat_Image_20220118095654.png?1696505053",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "okb"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-near",
+      "name": "NEAR Protocol",
+      "v": 1750002944,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#48 · market cap",
+      "note": "NEAR",
+      "image": "https://coin-images.coingecko.com/coins/images/10365/large/near.jpg?1696510367",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "near"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-pi-network",
+      "name": "Pi Network",
+      "v": 1742930575,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#49 · market cap",
+      "note": "PI",
+      "image": "https://coin-images.coingecko.com/coins/images/54342/large/pi_network.jpg?1739347576",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "pi-network"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-aster-2",
+      "name": "Aster",
+      "v": 1647910481,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#50 · market cap",
+      "note": "ASTER",
+      "image": "https://coin-images.coingecko.com/coins/images/69040/large/_ASTER.png?1757326782",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "aster-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-htx-dao",
+      "name": "HTX DAO",
+      "v": 1628346910,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#51 · market cap",
+      "note": "HTX",
+      "image": "https://coin-images.coingecko.com/coins/images/35491/large/Frame_1321318576.png?1708908626",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "htx-dao"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-pepe",
+      "name": "Pepe",
+      "v": 1582893467,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#53 · market cap",
+      "note": "PEPE",
+      "image": "https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "pepe"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-aave",
+      "name": "Aave",
+      "v": 1550077819,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#52 · market cap",
+      "note": "AAVE",
+      "image": "https://coin-images.coingecko.com/coins/images/12645/large/aave-token-round.png?1720472354",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "aave"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-usdd",
+      "name": "USDD",
+      "v": 1538579839,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#54 · market cap",
+      "note": "USDD",
+      "image": "https://coin-images.coingecko.com/coins/images/25380/large/UUSD.jpg?1696524513",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "usdd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-janus-henderson-anemoy-treasury-fund",
+      "name": "Janus Henderson Anemoy Treasury Fund",
+      "v": 1517738183,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#55 · market cap",
+      "note": "JTRSY",
+      "image": "https://coin-images.coingecko.com/coins/images/70445/large/JTRSY.png?1762078582",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "janus-henderson-anemoy-treasury-fund"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ripple-usd",
+      "name": "Ripple USD",
+      "v": 1429801420,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#56 · market cap",
+      "note": "RLUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/39651/large/RLUSD_200x200_%281%29.png?1727376633",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ripple-usd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-internet-computer",
+      "name": "Internet Computer",
+      "v": 1378057146,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#57 · market cap",
+      "note": "ICP",
+      "image": "https://coin-images.coingecko.com/coins/images/14495/large/Internet_Computer_logo.png?1696514180",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "internet-computer"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ethereum-classic",
+      "name": "Ethereum Classic",
+      "v": 1322705031,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#58 · market cap",
+      "note": "ETC",
+      "image": "https://coin-images.coingecko.com/coins/images/453/large/ethereum-classic-logo.png?1696501717",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ethereum-classic"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ondo-us-dollar-yield",
+      "name": "Ondo US Dollar Yield",
+      "v": 1320589921,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#59 · market cap",
+      "note": "USDY",
+      "image": "https://coin-images.coingecko.com/coins/images/31700/large/usdy_%281%29.png?1696530524",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ondo-us-dollar-yield"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-bfusd",
+      "name": "BFUSD",
+      "v": 1319871308,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#60 · market cap",
+      "note": "BFUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/68227/large/bfusd.png?1755132827",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "bfusd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-bitget-token",
+      "name": "Bitget Token",
+      "v": 1296257678,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#61 · market cap",
+      "note": "BGB",
+      "image": "https://coin-images.coingecko.com/coins/images/11610/large/Bitget_logo.png?1736925727",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "bitget-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ondo-finance",
+      "name": "Ondo",
+      "v": 1249025358,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#62 · market cap",
+      "note": "ONDO",
+      "image": "https://coin-images.coingecko.com/coins/images/26580/large/ONDO.png?1696525656",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ondo-finance"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ravedao",
+      "name": "RaveDAO",
+      "v": 1165185833,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#68 · market cap",
+      "note": "RAVE",
+      "image": "https://coin-images.coingecko.com/coins/images/70544/large/coin.jpeg?1762452940",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ravedao"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-kucoin-shares",
+      "name": "KuCoin",
+      "v": 1154670334,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#63 · market cap",
+      "note": "KCS",
+      "image": "https://coin-images.coingecko.com/coins/images/1047/large/sa9z79.png?1696502152",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "kucoin-shares"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-gatechain-token",
+      "name": "Gate",
+      "v": 1133103428,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#64 · market cap",
+      "note": "GT",
+      "image": "https://coin-images.coingecko.com/coins/images/8183/large/200X200.png?1735246724",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "gatechain-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-pump-fun",
+      "name": "Pump.fun",
+      "v": 1104825234,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#65 · market cap",
+      "note": "PUMP",
+      "image": "https://coin-images.coingecko.com/coins/images/67164/large/pump.jpg?1751949376",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "pump-fun"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-quant-network",
+      "name": "Quant",
+      "v": 1080402698,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#66 · market cap",
+      "note": "QNT",
+      "image": "https://coin-images.coingecko.com/coins/images/3370/large/5ZOu7brX_400x400.jpg?1696504070",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "quant-network"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-morpho",
+      "name": "Morpho",
+      "v": 1070260941,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#67 · market cap",
+      "note": "MORPHO",
+      "image": "https://coin-images.coingecko.com/coins/images/29837/large/Morpho-token-icon.png?1726771230",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "morpho"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ethena",
+      "name": "Ethena",
+      "v": 1049630570,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#69 · market cap",
+      "note": "ENA",
+      "image": "https://coin-images.coingecko.com/coins/images/36530/large/ethena.png?1711701436",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ethena"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-eutbl",
+      "name": "Spiko EU T-Bills Money Market Fund",
+      "v": 1011470542,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#70 · market cap",
+      "note": "EUTBL",
+      "image": "https://coin-images.coingecko.com/coins/images/39657/large/EUTBL.png?1723517425",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "eutbl"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-united-stables",
+      "name": "United Stables",
+      "v": 972098976,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#71 · market cap",
+      "note": "U",
+      "image": "https://coin-images.coingecko.com/coins/images/71157/large/united-stables-logo.jpg?1766061640",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "united-stables"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-algorand",
+      "name": "Algorand",
+      "v": 963719220,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#72 · market cap",
+      "note": "ALGO",
+      "image": "https://coin-images.coingecko.com/coins/images/4380/large/download.png?1696504978",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "algorand"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-polygon-ecosystem-token",
+      "name": "POL (ex-MATIC)",
+      "v": 948034170,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#73 · market cap",
+      "note": "POL",
+      "image": "https://coin-images.coingecko.com/coins/images/32440/large/pol.png?1759114181",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "polygon-ecosystem-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-kaspa",
+      "name": "Kaspa",
+      "v": 934750925,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#74 · market cap",
+      "note": "KAS",
+      "image": "https://coin-images.coingecko.com/coins/images/25751/large/kaspa-icon-exchanges.png?1696524837",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "kaspa"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-render-token",
+      "name": "Render",
+      "v": 926742419,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#75 · market cap",
+      "note": "RENDER",
+      "image": "https://coin-images.coingecko.com/coins/images/11636/large/rndr.png?1696511529",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "render-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-nexo",
+      "name": "NEXO",
+      "v": 899222616,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#76 · market cap",
+      "note": "NEXO",
+      "image": "https://coin-images.coingecko.com/coins/images/3695/large/CG-nexo-token-200x200_2x.png?1730414360",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "nexo"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-cosmos",
+      "name": "Cosmos Hub",
+      "v": 898182070,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#77 · market cap",
+      "note": "ATOM",
+      "image": "https://coin-images.coingecko.com/coins/images/1481/large/cosmos_hub.png?1696502525",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "cosmos"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-worldcoin-wld",
+      "name": "Worldcoin",
+      "v": 878761511,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#78 · market cap",
+      "note": "WLD",
+      "image": "https://coin-images.coingecko.com/coins/images/31069/large/worldcoin.jpeg?1696529903",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "worldcoin-wld"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-usdtb",
+      "name": "USDtb",
+      "v": 869134618,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#79 · market cap",
+      "note": "USDTB",
+      "image": "https://coin-images.coingecko.com/coins/images/52804/large/76357aa8-4ef7-446c-bad3-a3f944eeec7a.jpeg?1758277468",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "usdtb"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-superstate-short-duration-us-government-securities-fund-ustb",
+      "name": "Superstate Short Duration U.S. Government Securities Fund (USTB)",
+      "v": 863579942,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#80 · market cap",
+      "note": "USTB",
+      "image": "https://coin-images.coingecko.com/coins/images/35012/large/ustb.jpeg?1707102680",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "superstate-short-duration-us-government-securities-fund-ustb"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-arbitrum",
+      "name": "Arbitrum",
+      "v": 767938101,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#81 · market cap",
+      "note": "ARB",
+      "image": "https://coin-images.coingecko.com/coins/images/16547/large/arb.jpg?1721358242",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "arbitrum"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-blockchain-capital",
+      "name": "Blockchain Capital",
+      "v": 754118306,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#83 · market cap",
+      "note": "BCAP",
+      "image": "https://coin-images.coingecko.com/coins/images/56040/large/bcap_logo_200.png?1748088291",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "blockchain-capital"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-aptos",
+      "name": "Aptos",
+      "v": 753931855,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#82 · market cap",
+      "note": "APT",
+      "image": "https://coin-images.coingecko.com/coins/images/26455/large/Aptos-Network-Symbol-Black-RGB-1x.png?1761789140",
+      "tags": [
+        "L1"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "aptos"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-filecoin",
+      "name": "Filecoin",
+      "v": 729570739,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#84 · market cap",
+      "note": "FIL",
+      "image": "https://coin-images.coingecko.com/coins/images/12817/large/filecoin.png?1696512609",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "filecoin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-flare-networks",
+      "name": "Flare",
+      "v": 695496665,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#85 · market cap",
+      "note": "FLR",
+      "image": "https://coin-images.coingecko.com/coins/images/28624/large/FLR-icon200x200.png?1696527609",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "flare-networks"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-official-trump",
+      "name": "Official Trump",
+      "v": 670114411,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#86 · market cap",
+      "note": "TRUMP",
+      "image": "https://coin-images.coingecko.com/coins/images/53746/large/trump.png?1737171561",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "official-trump"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-dexe",
+      "name": "DeXe",
+      "v": 667217030,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#87 · market cap",
+      "note": "DEXE",
+      "image": "https://coin-images.coingecko.com/coins/images/12713/large/DEXE_token_logo.png?1696512514",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "dexe"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-hash-2",
+      "name": "Provenance Blockchain",
+      "v": 635753458,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#88 · market cap",
+      "note": "HASH",
+      "image": "https://coin-images.coingecko.com/coins/images/66154/large/Hastra_Icon.png?1748497203",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "hash-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-jupiter-exchange-solana",
+      "name": "Jupiter",
+      "v": 629676489,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#89 · market cap",
+      "note": "JUP",
+      "image": "https://coin-images.coingecko.com/coins/images/34188/large/jup.png?1704266489",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "jupiter-exchange-solana"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-midnight-3",
+      "name": "Midnight",
+      "v": 621522078,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#90 · market cap",
+      "note": "NIGHT",
+      "image": "https://coin-images.coingecko.com/coins/images/71015/large/midnight.png?1765193080",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "midnight-3"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-beldex",
+      "name": "Beldex",
+      "v": 619114514,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#91 · market cap",
+      "note": "BDX",
+      "image": "https://coin-images.coingecko.com/coins/images/5111/large/Beldex.png?1696505631",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "beldex"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-vechain",
+      "name": "VeChain",
+      "v": 608068105,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#92 · market cap",
+      "note": "VET",
+      "image": "https://coin-images.coingecko.com/coins/images/1167/large/VET.png?1742383283",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "vechain"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-just",
+      "name": "JUST",
+      "v": 607629902,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#93 · market cap",
+      "note": "JST",
+      "image": "https://coin-images.coingecko.com/coins/images/11095/large/JUST.jpg?1696511035",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "just"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ousg",
+      "name": "OUSG",
+      "v": 602476106,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#94 · market cap",
+      "note": "OUSG",
+      "image": "https://coin-images.coingecko.com/coins/images/29023/large/OUSG.png?1696527993",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ousg"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-xdce-crowd-sale",
+      "name": "XDC Network",
+      "v": 597924696,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#95 · market cap",
+      "note": "XDC",
+      "image": "https://coin-images.coingecko.com/coins/images/2912/large/xdc-icon.png?1696503661",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "xdce-crowd-sale"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ylds",
+      "name": "YLDS",
+      "v": 589491385,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#96 · market cap",
+      "note": "YLDS",
+      "image": "https://coin-images.coingecko.com/coins/images/66486/large/YLDS.png?1772560579",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ylds"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-gho",
+      "name": "GHO",
+      "v": 583618769,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#97 · market cap",
+      "note": "GHO",
+      "image": "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "gho"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-siren-2",
+      "name": "Siren",
+      "v": 573900307,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#99 · market cap",
+      "note": "SIREN",
+      "image": "https://coin-images.coingecko.com/coins/images/54479/large/siren.png?1739960056",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "siren-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-stable-2",
+      "name": "​​Stable",
+      "v": 569156103,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#98 · market cap",
+      "note": "STABLE",
+      "image": "https://coin-images.coingecko.com/coins/images/69242/large/stable-logotype-framed-square-light.png?1762753913",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "stable-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-usual-usd",
+      "name": "Usual USD",
+      "v": 557480210,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#100 · market cap",
+      "note": "USD0",
+      "image": "https://coin-images.coingecko.com/coins/images/38272/large/USD0LOGO.png?1716962811",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "usual-usd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-bonk",
+      "name": "Bonk",
+      "v": 533955135,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#101 · market cap",
+      "note": "BONK",
+      "image": "https://coin-images.coingecko.com/coins/images/28600/large/bonk.jpg?1696527587",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "bonk"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-pancakeswap-token",
+      "name": "PancakeSwap",
+      "v": 506373416,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#102 · market cap",
+      "note": "CAKE",
+      "image": "https://coin-images.coingecko.com/coins/images/12632/large/pancakeswap-cake-logo_%281%29.png?1696512440",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "pancakeswap-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-true-usd",
+      "name": "TrueUSD",
+      "v": 494093013,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#103 · market cap",
+      "note": "TUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/3449/large/tusd.png?1696504140",
+      "tags": [
+        "stablecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "true-usd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-fetch-ai",
+      "name": "Artificial Superintelligence Alliance",
+      "v": 491141734,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#104 · market cap",
+      "note": "FET",
+      "image": "https://coin-images.coingecko.com/coins/images/5681/large/ASI.png?1719827289",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "fetch-ai"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-a7a5",
+      "name": "A7A5",
+      "v": 486938211,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#105 · market cap",
+      "note": "A7A5",
+      "image": "https://coin-images.coingecko.com/coins/images/66657/large/A7A5_200.png?1750163839",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "a7a5"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-layerzero",
+      "name": "LayerZero",
+      "v": 468620843,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#106 · market cap",
+      "note": "ZRO",
+      "image": "https://coin-images.coingecko.com/coins/images/28206/large/ftxG9_TJ_400x400.jpeg?1696527208",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "layerzero"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-edgex",
+      "name": "edgeX",
+      "v": 465807279,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#107 · market cap",
+      "note": "EDGE",
+      "image": "https://coin-images.coingecko.com/coins/images/102172616/large/edgex.png?1774332310",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "edgex"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-virtual-protocol",
+      "name": "Virtuals Protocol",
+      "v": 464605248,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#108 · market cap",
+      "note": "VIRTUAL",
+      "image": "https://coin-images.coingecko.com/coins/images/34057/large/LOGOMARK.png?1708356054",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "virtual-protocol"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-pudgy-penguins",
+      "name": "Pudgy Penguins",
+      "v": 457628132,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#109 · market cap",
+      "note": "PENGU",
+      "image": "https://coin-images.coingecko.com/coins/images/52622/large/PUDGY_PENGUINS_PENGU_PFP.png?1733809110",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "pudgy-penguins"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-adi-token",
+      "name": "ADI",
+      "v": 451286561,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#110 · market cap",
+      "note": "ADI",
+      "image": "https://coin-images.coingecko.com/coins/images/68846/large/ADI_Token-min.png?1765296433",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "adi-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-bianrensheng",
+      "name": "币安人生 (BinanceLife)",
+      "v": 446896557,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#111 · market cap",
+      "note": "币安人生",
+      "image": "https://coin-images.coingecko.com/coins/images/69848/large/%E5%B8%81%E5%AE%89%E4%BA%BA%E7%94%9F.png?1759839225",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "bianrensheng"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-dash",
+      "name": "Dash",
+      "v": 439102838,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#112 · market cap",
+      "note": "DASH",
+      "image": "https://coin-images.coingecko.com/coins/images/19/large/dash-logo.png?1696501423",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "dash"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-euro-coin",
+      "name": "EURC",
+      "v": 428836363,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#113 · market cap",
+      "note": "EURC",
+      "image": "https://coin-images.coingecko.com/coins/images/26045/large/EURC.png?1769615705",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "euro-coin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-blockstack",
+      "name": "Stacks",
+      "v": 424744455,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#114 · market cap",
+      "note": "STX",
+      "image": "https://coin-images.coingecko.com/coins/images/2069/large/Stacks_Logo_png.png?1709979332",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "blockstack"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-chiliz",
+      "name": "Chiliz",
+      "v": 415327977,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#115 · market cap",
+      "note": "CHZ",
+      "image": "https://coin-images.coingecko.com/coins/images/8834/large/CHZ_Token_updated.png?1696508986",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "chiliz"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-first-digital-usd",
+      "name": "First Digital USD",
+      "v": 413780161,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#116 · market cap",
+      "note": "FDUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/31079/large/FDUSD_icon_black.png?1731097953",
+      "tags": [
+        "stablecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "first-digital-usd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-janus-henderson-anemoy-aaa-clo-fund",
+      "name": "Janus Henderson Anemoy AAA CLO Fund",
+      "v": 403117350,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#117 · market cap",
+      "note": "JAAA",
+      "image": "https://coin-images.coingecko.com/coins/images/70446/large/jaaa.png?1762078666",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "janus-henderson-anemoy-aaa-clo-fund"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ether-fi",
+      "name": "Ether.fi",
+      "v": 401237701,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#118 · market cap",
+      "note": "ETHFI",
+      "image": "https://coin-images.coingecko.com/coins/images/35958/large/etherfi.jpeg?1710254562",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ether-fi"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-tezos",
+      "name": "Tezos",
+      "v": 395402381,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#119 · market cap",
+      "note": "XTZ",
+      "image": "https://coin-images.coingecko.com/coins/images/976/large/Tezos-logo.png?1696502091",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "tezos"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-monad",
+      "name": "Monad",
+      "v": 394107755,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#120 · market cap",
+      "note": "MON",
+      "image": "https://coin-images.coingecko.com/coins/images/38927/large/mon.png?1766029057",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "monad"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-venice-token",
+      "name": "Venice Token",
+      "v": 392006373,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#121 · market cap",
+      "note": "VVV",
+      "image": "https://coin-images.coingecko.com/coins/images/54023/large/VVV_Token_Transparent.png?1741856877",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "venice-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-usx",
+      "name": "USX",
+      "v": 378297881,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#123 · market cap",
+      "note": "USX",
+      "image": "https://coin-images.coingecko.com/coins/images/68429/large/Solstice_Icons_for_DEX_512x512_USX.png?1755718377",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "usx"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-aerodrome-finance",
+      "name": "Aerodrome Finance",
+      "v": 378009951,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#122 · market cap",
+      "note": "AERO",
+      "image": "https://coin-images.coingecko.com/coins/images/31745/large/token.png?1696530564",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "aerodrome-finance"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-sei-network",
+      "name": "Sei",
+      "v": 376708044,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#124 · market cap",
+      "note": "SEI",
+      "image": "https://coin-images.coingecko.com/coins/images/28205/large/Sei_Logo_-_Transparent.png?1696527207",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "sei-network"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-kinesis-gold",
+      "name": "Kinesis Gold",
+      "v": 371524129,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#125 · market cap",
+      "note": "KAU",
+      "image": "https://coin-images.coingecko.com/coins/images/29788/large/kau-currency-ticker.png?1696528718",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "kinesis-gold"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-hastra-prime",
+      "name": "PRIME",
+      "v": 367791361,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#126 · market cap",
+      "note": "PRIME",
+      "image": "https://coin-images.coingecko.com/coins/images/71002/large/Frame_427319702.png?1765093510",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "hastra-prime"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-celestia",
+      "name": "Celestia",
+      "v": 359194342,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#127 · market cap",
+      "note": "TIA",
+      "image": "https://coin-images.coingecko.com/coins/images/31967/large/tia.jpg?1696530772",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "celestia"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-sun-token",
+      "name": "Sun Token",
+      "v": 355175072,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#128 · market cap",
+      "note": "SUN",
+      "image": "https://coin-images.coingecko.com/coins/images/12424/large/RSFOmQ.png?1696512245",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "sun-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-decred",
+      "name": "Decred",
+      "v": 354892173,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#129 · market cap",
+      "note": "DCR",
+      "image": "https://coin-images.coingecko.com/coins/images/329/large/dcr.png?1762890696",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "decred"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-curve-dao-token",
+      "name": "Curve DAO",
+      "v": 344700328,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#130 · market cap",
+      "note": "CRV",
+      "image": "https://coin-images.coingecko.com/coins/images/12124/large/Curve.png?1696511967",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "curve-dao-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-lido-dao",
+      "name": "Lido DAO",
+      "v": 336618914,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#131 · market cap",
+      "note": "LDO",
+      "image": "https://coin-images.coingecko.com/coins/images/13573/large/Lido_DAO.png?1696513326",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "lido-dao"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-apenft",
+      "name": "AINFT",
+      "v": 333182014,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#132 · market cap",
+      "note": "NFT",
+      "image": "https://coin-images.coingecko.com/coins/images/15687/large/AINFT.png?1761099340",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "apenft"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-gnosis",
+      "name": "Gnosis",
+      "v": 325990148,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#133 · market cap",
+      "note": "GNO",
+      "image": "https://coin-images.coingecko.com/coins/images/662/large/logo_square_simple_300px.png?1696501854",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "gnosis"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-mantra-dao",
+      "name": "MANTRA [Old]",
+      "v": 324410800,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#134 · market cap",
+      "note": "OM",
+      "image": "https://coin-images.coingecko.com/coins/images/12151/large/OM_Token.png?1696511991",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "mantra-dao"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-bittorrent",
+      "name": "BitTorrent",
+      "v": 321921003,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#135 · market cap",
+      "note": "BTT",
+      "image": "https://coin-images.coingecko.com/coins/images/22457/large/btt_logo.png?1696521780",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "bittorrent"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-injective-protocol",
+      "name": "Injective",
+      "v": 320862279,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#136 · market cap",
+      "note": "INJ",
+      "image": "https://coin-images.coingecko.com/coins/images/12882/large/Other_200x200.png?1738782212",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "injective-protocol"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-bitcoin-cash-sv",
+      "name": "Bitcoin SV",
+      "v": 317168950,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#138 · market cap",
+      "note": "BSV",
+      "image": "https://coin-images.coingecko.com/coins/images/6799/large/BSV.png?1696507128",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "bitcoin-cash-sv"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-crvusd",
+      "name": "crvUSD",
+      "v": 316783875,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#139 · market cap",
+      "note": "CRVUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/30118/large/crvusd.jpg?1746670973",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "crvusd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-spx6900",
+      "name": "SPX6900",
+      "v": 316473036,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#137 · market cap",
+      "note": "SPX",
+      "image": "https://coin-images.coingecko.com/coins/images/31401/large/centeredcoin_%281%29.png?1737048493",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "spx6900"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-doublezero",
+      "name": "DoubleZero",
+      "v": 314309863,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#141 · market cap",
+      "note": "2Z",
+      "image": "https://coin-images.coingecko.com/coins/images/68339/large/Coingecko_-_PFP.png?1755694420",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "doublezero"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-conflux-token",
+      "name": "Conflux",
+      "v": 313651757,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#140 · market cap",
+      "note": "CFX",
+      "image": "https://coin-images.coingecko.com/coins/images/13079/large/3vuYMbjN.png?1696512867",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "conflux-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-kinesis-silver",
+      "name": "Kinesis Silver",
+      "v": 300276691,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#142 · market cap",
+      "note": "KAG",
+      "image": "https://coin-images.coingecko.com/coins/images/29789/large/kag-currency-ticker.png?1696528719",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "kinesis-silver"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-floki",
+      "name": "FLOKI",
+      "v": 296664688,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#143 · market cap",
+      "note": "FLOKI",
+      "image": "https://coin-images.coingecko.com/coins/images/16746/large/PNG_image.png?1696516318",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "floki"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-kaia",
+      "name": "Kaia",
+      "v": 287090249,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#144 · market cap",
+      "note": "KAIA",
+      "image": "https://coin-images.coingecko.com/coins/images/39901/large/KAIA.png?1724734368",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "kaia"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-usdai",
+      "name": "USDai",
+      "v": 283884770,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#145 · market cap",
+      "note": "USDAI",
+      "image": "https://coin-images.coingecko.com/coins/images/55857/large/USDai_Token_Full_Glyph.png?1755229050",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "usdai"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-syrup",
+      "name": "Maple Finance",
+      "v": 279641802,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#146 · market cap",
+      "note": "SYRUP",
+      "image": "https://coin-images.coingecko.com/coins/images/51232/large/_syrup_token_logo.png?1747292046",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "syrup"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-jasmycoin",
+      "name": "JasmyCoin",
+      "v": 278707370,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#147 · market cap",
+      "note": "JASMY",
+      "image": "https://coin-images.coingecko.com/coins/images/13876/large/JASMY200x200.jpg?1696513620",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "jasmycoin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-frax",
+      "name": "Legacy Frax Dollar",
+      "v": 274383942,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#149 · market cap",
+      "note": "FRAX",
+      "image": "https://coin-images.coingecko.com/coins/images/13422/large/LFRAX.png?1751911193",
+      "tags": [
+        "stablecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "frax"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-genius-3",
+      "name": "Genius",
+      "v": 274164037,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#148 · market cap",
+      "note": "GENIUS",
+      "image": "https://coin-images.coingecko.com/coins/images/71660/large/genius.png?1768804210",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "genius-3"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ape-and-pepe",
+      "name": "Ape and Pepe",
+      "v": 273636585,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#150 · market cap",
+      "note": "APEPE",
+      "image": "https://coin-images.coingecko.com/coins/images/39614/large/APEPE_200.png?1723142351",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ape-and-pepe"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-the-graph",
+      "name": "The Graph",
+      "v": 269670928,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#152 · market cap",
+      "note": "GRT",
+      "image": "https://coin-images.coingecko.com/coins/images/13397/large/Graph_Token.png?1696513159",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "the-graph"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-optimism",
+      "name": "Optimism",
+      "v": 269355570,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#153 · market cap",
+      "note": "OP",
+      "image": "https://coin-images.coingecko.com/coins/images/25244/large/Token.png?1774456081",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "optimism"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-plasma",
+      "name": "Plasma",
+      "v": 268856180,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#151 · market cap",
+      "note": "XPL",
+      "image": "https://coin-images.coingecko.com/coins/images/66489/large/Plasma-symbol-green-1.png?1755142558",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "plasma"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-zebec-network",
+      "name": "Zebec Network",
+      "v": 263889264,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#154 · market cap",
+      "note": "ZBCN",
+      "image": "https://coin-images.coingecko.com/coins/images/37052/large/zbcn.jpeg?1713168241",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "zebec-network"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-pyth-network",
+      "name": "Pyth Network",
+      "v": 263382108,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#155 · market cap",
+      "note": "PYTH",
+      "image": "https://coin-images.coingecko.com/coins/images/31924/large/pyth.png?1701245725",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "pyth-network"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-official-fo",
+      "name": "Official FO",
+      "v": 262981457,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#156 · market cap",
+      "note": "FO",
+      "image": "https://coin-images.coingecko.com/coins/images/55682/large/fo.jpg?1746982885",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "official-fo"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-kite-2",
+      "name": "Kite",
+      "v": 258551977,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#158 · market cap",
+      "note": "KITE",
+      "image": "https://coin-images.coingecko.com/coins/images/70426/large/KITE-ICON.png?1762328605",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "kite-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-compound-governance-token",
+      "name": "Compound",
+      "v": 257769575,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#157 · market cap",
+      "note": "COMP",
+      "image": "https://coin-images.coingecko.com/coins/images/10775/large/COMP.png?1696510737",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "compound-governance-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-lighter",
+      "name": "Lighter",
+      "v": 254552567,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#159 · market cap",
+      "note": "LIT",
+      "image": "https://coin-images.coingecko.com/coins/images/71121/large/lighter.png?1765888098",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "lighter"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-iota",
+      "name": "IOTA",
+      "v": 252395955,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#160 · market cap",
+      "note": "IOTA",
+      "image": "https://coin-images.coingecko.com/coins/images/692/large/IOTA_Thumbnail_%281%29.png?1743772896",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "iota"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-olympus",
+      "name": "Olympus",
+      "v": 248058405,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#161 · market cap",
+      "note": "OHM",
+      "image": "https://coin-images.coingecko.com/coins/images/14483/large/token_OHM_%281%29.png?1696514169",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "olympus"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-lido-earn-eth",
+      "name": "Lido Earn ETH",
+      "v": 243237977,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#162 · market cap",
+      "note": "EARNETH",
+      "image": "https://coin-images.coingecko.com/coins/images/102172835/large/earnETH.png?1776152041",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "lido-earn-eth"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-terra-luna",
+      "name": "Terra Luna Classic",
+      "v": 235431408,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#163 · market cap",
+      "note": "LUNC",
+      "image": "https://coin-images.coingecko.com/coins/images/8284/large/01_LunaClassic_color.png?1696508486",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "terra-luna"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-reallink",
+      "name": "RealLink",
+      "v": 230413736,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#164 · market cap",
+      "note": "REAL",
+      "image": "https://coin-images.coingecko.com/coins/images/20665/large/TGBfBt6Y2Dm3RHdNpZAdqywBsvfdysf834.jpeg?1749135788",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "reallink"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ethereum-name-service",
+      "name": "Ethereum Name Service",
+      "v": 229565569,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#165 · market cap",
+      "note": "ENS",
+      "image": "https://coin-images.coingecko.com/coins/images/19785/large/ENS.jpg?1727872989",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ethereum-name-service"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-pendle",
+      "name": "Pendle",
+      "v": 228965557,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#166 · market cap",
+      "note": "PENDLE",
+      "image": "https://coin-images.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "pendle"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-theta-token",
+      "name": "Theta Network",
+      "v": 226435714,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#167 · market cap",
+      "note": "THETA",
+      "image": "https://coin-images.coingecko.com/coins/images/2538/large/theta-token-logo.png?1696503349",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "theta-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-usda-2",
+      "name": "USDa",
+      "v": 217235955,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#168 · market cap",
+      "note": "USDA",
+      "image": "https://coin-images.coingecko.com/coins/images/51599/large/SUSDA.png?1731604761",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "usda-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-agora-dollar",
+      "name": "AUSD",
+      "v": 216422185,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#169 · market cap",
+      "note": "AUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/39284/large/AUSD_1024px.png?1764684132",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "agora-dollar"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-the-sandbox",
+      "name": "The Sandbox",
+      "v": 214971798,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#170 · market cap",
+      "note": "SAND",
+      "image": "https://coin-images.coingecko.com/coins/images/12129/large/sandbox_logo.jpg?1696511971",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "the-sandbox"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-the9bit",
+      "name": "The9bit",
+      "v": 213656363,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#171 · market cap",
+      "note": "9BIT",
+      "image": "https://coin-images.coingecko.com/coins/images/71396/large/v1.png?1767864318",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "the9bit"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-ethgas-2",
+      "name": "ETHGas",
+      "v": 210254762,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#172 · market cap",
+      "note": "GWEI",
+      "image": "https://coin-images.coingecko.com/coins/images/71375/large/ethgas_token_200.png?1769055039",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "ethgas-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-undeads-games",
+      "name": "Undeads Games",
+      "v": 210075906,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#173 · market cap",
+      "note": "UDS",
+      "image": "https://coin-images.coingecko.com/coins/images/36308/large/01_avatar.jpg?1711090303",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "undeads-games"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-starknet",
+      "name": "Starknet",
+      "v": 207339073,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#174 · market cap",
+      "note": "STRK",
+      "image": "https://coin-images.coingecko.com/coins/images/26433/large/starknet.png?1696525507",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "starknet"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-fartcoin",
+      "name": "Fartcoin",
+      "v": 206014980,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#175 · market cap",
+      "note": "FARTCOIN",
+      "image": "https://coin-images.coingecko.com/coins/images/50891/large/fart.jpg?1729503972",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "fartcoin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-humanity",
+      "name": "Humanity",
+      "v": 204406387,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#177 · market cap",
+      "note": "H",
+      "image": "https://coin-images.coingecko.com/coins/images/66811/large/H_tokenLogo_original.png?1750581252",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "humanity"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-vision-3",
+      "name": "Vision",
+      "v": 204180704,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#176 · market cap",
+      "note": "VSN",
+      "image": "https://coin-images.coingecko.com/coins/images/67399/large/Logo-Vision-Symbol-BG-Green.png?1752676915",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "vision-3"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-neo",
+      "name": "NEO",
+      "v": 203721227,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#178 · market cap",
+      "note": "NEO",
+      "image": "https://coin-images.coingecko.com/coins/images/480/large/NEO_512_512.png?1696501735",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "neo"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-tradable-na-rent-financing-platform-sstn",
+      "name": "Tradable NA Rent Financing Platform SSTN",
+      "v": 202500000,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#179 · market cap",
+      "note": "PC0000031",
+      "image": "https://coin-images.coingecko.com/coins/images/66150/large/tradable.jpg?1748488921",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "tradable-na-rent-financing-platform-sstn"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-telcoin",
+      "name": "Telcoin",
+      "v": 202430781,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#180 · market cap",
+      "note": "TEL",
+      "image": "https://coin-images.coingecko.com/coins/images/1899/large/tel.png?1696502892",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "telcoin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-dogwifcoin",
+      "name": "dogwifhat",
+      "v": 202198551,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#181 · market cap",
+      "note": "WIF",
+      "image": "https://coin-images.coingecko.com/coins/images/33566/large/dogwifhat.jpg?1702499428",
+      "tags": [
+        "memecoin"
+      ],
+      "source": {
+        "kind": "coingecko",
+        "id": "dogwifcoin"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-story-2",
+      "name": "Story",
+      "v": 192262854,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#183 · market cap",
+      "note": "IP",
+      "image": "https://coin-images.coingecko.com/coins/images/54035/large/Transparent_bg.png?1738075331",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "story-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-swissborg",
+      "name": "SwissBorg",
+      "v": 191976936,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#184 · market cap",
+      "note": "BORG",
+      "image": "https://coin-images.coingecko.com/coins/images/2117/large/YJUrRy7r_400x400.png?1696503083",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "swissborg"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-axie-infinity",
+      "name": "Axie Infinity",
+      "v": 191590332,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#182 · market cap",
+      "note": "AXS",
+      "image": "https://coin-images.coingecko.com/coins/images/13029/large/axie_infinity_logo.png?1696512817",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "axie-infinity"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-grass",
+      "name": "Grass",
+      "v": 190897363,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#185 · market cap",
+      "note": "GRASS",
+      "image": "https://coin-images.coingecko.com/coins/images/40094/large/Grass.jpg?1725697048",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "grass"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-helium",
+      "name": "Helium",
+      "v": 189883600,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#186 · market cap",
+      "note": "HNT",
+      "image": "https://coin-images.coingecko.com/coins/images/4284/large/helium_logo_use.png?1748092589",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "helium"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-skyai",
+      "name": "SkyAI",
+      "v": 187953299,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#187 · market cap",
+      "note": "SKYAI",
+      "image": "https://coin-images.coingecko.com/coins/images/55294/large/1.png?1745517593",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "skyai"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-re-protocol-reusd",
+      "name": "Re Protocol reUSD",
+      "v": 187140198,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#188 · market cap",
+      "note": "REUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/66291/large/Points_Program_Group_91.png?1749676055",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "re-protocol-reusd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-decentraland",
+      "name": "Decentraland",
+      "v": 178645280,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#189 · market cap",
+      "note": "MANA",
+      "image": "https://coin-images.coingecko.com/coins/images/878/large/decentraland-mana.png?1696502010",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "decentraland"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-btse-token",
+      "name": "BTSE Token",
+      "v": 178466137,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#190 · market cap",
+      "note": "BTSE",
+      "image": "https://coin-images.coingecko.com/coins/images/10807/large/BTSE_logo_Square.jpeg?1696510765",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "btse-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-raydium",
+      "name": "Raydium",
+      "v": 177276281,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#191 · market cap",
+      "note": "RAY",
+      "image": "https://coin-images.coingecko.com/coins/images/13928/large/PSigc4ie_400x400.jpg?1696513668",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "raydium"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-chain-2",
+      "name": "Onyxcoin",
+      "v": 176807859,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#192 · market cap",
+      "note": "XCN",
+      "image": "https://coin-images.coingecko.com/coins/images/24210/large/onyxlogo.jpg?1696523397",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "chain-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-apxusd",
+      "name": "apxUSD",
+      "v": 174937898,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#193 · market cap",
+      "note": "APXUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/102172243/large/apxUSD.png?1772448502",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "apxusd"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-nusd-2",
+      "name": "Neutrl USD",
+      "v": 172409255,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#194 · market cap",
+      "note": "NUSD",
+      "image": "https://coin-images.coingecko.com/coins/images/70027/large/NUSD-200x200.png?1760452629",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "nusd-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-trust-wallet-token",
+      "name": "Trust Wallet",
+      "v": 171106099,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#195 · market cap",
+      "note": "TWT",
+      "image": "https://coin-images.coingecko.com/coins/images/11085/large/Trust.png?1696511026",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "trust-wallet-token"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-wefi",
+      "name": "WeFi",
+      "v": 169298435,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#196 · market cap",
+      "note": "WFI",
+      "image": "https://coin-images.coingecko.com/coins/images/51842/large/200x200Logo.png?1732049089",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "wefi"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-falcon-finance-ff",
+      "name": "Falcon Finance",
+      "v": 168815902,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#197 · market cap",
+      "note": "FF",
+      "image": "https://coin-images.coingecko.com/coins/images/69121/large/ff.png?1757573403",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "falcon-finance-ff"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-spiko-us-t-bills-money-market-fund",
+      "name": "Spiko US T-Bills Money Market Fund",
+      "v": 168796890,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#198 · market cap",
+      "note": "USTBL",
+      "image": "https://coin-images.coingecko.com/coins/images/39666/large/USTB.png?1723541269",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "spiko-us-t-bills-money-market-fund"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-walrus-2",
+      "name": "Walrus",
+      "v": 167847469,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#199 · market cap",
+      "note": "WAL",
+      "image": "https://coin-images.coingecko.com/coins/images/54914/large/Walrus_Token_Full_Color_200x200.png?1772722407",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "walrus-2"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
+    },
+    {
+      "id": "coin-sonic-3",
+      "name": "Sonic",
+      "v": 166860253,
+      "category": "coin",
+      "kind": "market-cap",
+      "label": "#200 · market cap",
+      "note": "S",
+      "image": "https://coin-images.coingecko.com/coins/images/38108/large/200x200_Sonic_Logo.png?1734679256",
+      "tags": [],
+      "source": {
+        "kind": "coingecko",
+        "id": "sonic-3"
+      },
+      "updatedAt": "2026-04-18T18:44:32.273Z"
     }
   ]
 }
