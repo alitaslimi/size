@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ParallaxScene, type ParallaxSceneHandle } from "./components/ParallaxScene";
 import { Header } from "./components/Header";
 import { FilterPills, type FilterState } from "./components/FilterPills";
@@ -9,16 +9,14 @@ import { Minimap } from "./components/Minimap";
 import { AnchorPicker } from "./components/AnchorPicker";
 import { useIsMobile } from "./hooks/useIsMobile";
 import { useUniverse } from "./hooks/useUniverse";
+import { readUrlState, useUrlState, type AppUrlState } from "./hooks/useUrlState";
 import type { UniverseItem } from "./lib/universe";
 import { pos, type ScaleMode } from "./lib/scale";
 
-const DEFAULT_ANCHOR = 1_000_000;
-
-const DEFAULT_FILTERS: FilterState = {
-  coin: true,
-  project: true,
-  person: true,
-  ref: true,
+const DEFAULTS: AppUrlState = {
+  anchor: 1_000_000,
+  scale: "log",
+  filters: { coin: true, project: true, person: true, ref: true },
 };
 
 function youItem(anchor: number): UniverseItem {
@@ -37,15 +35,25 @@ function youItem(anchor: number): UniverseItem {
 
 function App() {
   const { status, items } = useUniverse();
-  const [anchor, setAnchor] = useState(DEFAULT_ANCHOR);
-  const [scale, setScale] = useState<ScaleMode>("log");
-  const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
+  const initial = useMemo(() => readUrlState(DEFAULTS), []);
+
+  const [anchor, setAnchor] = useState<number>(initial.anchor);
+  const [scale, setScale] = useState<ScaleMode>(initial.scale);
+  const [filters, setFilters] = useState<FilterState>(initial.filters);
   const [progress, setProgress] = useState(0.5);
   const [showHint, setShowHint] = useState(true);
   const [pickerOpen, setPickerOpen] = useState(false);
   const isMobile = useIsMobile();
 
   const sceneRef = useRef<ParallaxSceneHandle>(null);
+
+  const onPopState = useCallback((next: AppUrlState) => {
+    setAnchor(next.anchor);
+    setScale(next.scale);
+    setFilters(next.filters);
+  }, []);
+
+  useUrlState({ anchor, scale, filters }, DEFAULTS, onPopState);
 
   useEffect(() => {
     const t = setTimeout(() => setShowHint(false), 4500);
@@ -71,6 +79,8 @@ function App() {
   if (status === "loading" || allItems.length === 0) {
     return (
       <div
+        role="status"
+        aria-live="polite"
         style={{
           position: "fixed",
           inset: 0,
@@ -89,6 +99,7 @@ function App() {
   if (status === "error") {
     return (
       <div
+        role="alert"
         style={{
           position: "fixed",
           inset: 0,
@@ -105,7 +116,7 @@ function App() {
   }
 
   return (
-    <>
+    <main>
       <ParallaxScene
         // Remount when scale, anchor, or viewport mode changes so positions
         // recompute and the scene re-centers on the anchor.
@@ -138,7 +149,7 @@ function App() {
         />
       )}
       <ScrollHint visible={showHint && !pickerOpen} />
-    </>
+    </main>
   );
 }
 
