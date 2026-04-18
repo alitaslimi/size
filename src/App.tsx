@@ -1,56 +1,85 @@
+import { useMemo, useState } from "react";
+import { ParallaxScene } from "./components/ParallaxScene";
+import { useUniverse } from "./hooks/useUniverse";
 import type { UniverseItem } from "./lib/universe";
-import { Disc } from "./components/Disc";
-import { DiscMeta } from "./components/DiscMeta";
+import { pos, type ScaleMode } from "./lib/scale";
 
-const NOW = new Date().toISOString();
+const DEFAULT_ANCHOR = 1_000_000;
 
-const DEMO: UniverseItem[] = [
-  {
-    id: "demo-btc",
-    name: "Bitcoin",
-    v: 68_000,
-    category: "coin",
-    kind: "price",
-    label: "Bitcoin · 1 token",
-    note: "per-token price",
-    image: "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png",
-    source: { kind: "coingecko", id: "bitcoin" },
-    updatedAt: NOW,
-  },
-  {
-    id: "demo-you",
+function youItem(anchor: number): UniverseItem {
+  return {
+    id: "you",
     name: "YOU",
-    v: 1_000_000,
+    v: anchor,
     category: "you",
     kind: "reference",
     label: "your size",
     note: "let's say you're a millionaire",
     source: { kind: "user" },
-    updatedAt: NOW,
-  },
-  {
-    id: "demo-musk",
-    name: "Elon Musk",
-    v: 340_000_000_000,
-    category: "person",
-    kind: "net-worth",
-    label: "Tesla / SpaceX / xAI",
-    note: "net worth est.",
-    source: { kind: "curated" },
-    updatedAt: NOW,
-  },
-];
+    updatedAt: new Date().toISOString(),
+  };
+}
 
 function App() {
+  const { status, items } = useUniverse();
+  const [anchor] = useState(DEFAULT_ANCHOR);
+  const [scale] = useState<ScaleMode>("log");
+
+  const sceneItems = useMemo(() => {
+    const sorted = [...items, youItem(anchor)].sort((a, b) => a.v - b.v);
+    return sorted;
+  }, [items, anchor]);
+
+  const anchorProgress = useMemo(() => {
+    if (sceneItems.length === 0) return 0.5;
+    const vMin = sceneItems[0].v;
+    const vMax = sceneItems[sceneItems.length - 1].v;
+    return pos(anchor, vMin, vMax, scale);
+  }, [sceneItems, anchor, scale]);
+
+  if (status === "loading" || sceneItems.length === 0) {
+    return (
+      <div
+        style={{
+          position: "fixed",
+          inset: 0,
+          display: "grid",
+          placeItems: "center",
+          fontFamily: "var(--font-serif)",
+          color: "var(--cu-muted)",
+          fontSize: 18,
+        }}
+      >
+        loading the universe…
+      </div>
+    );
+  }
+
+  if (status === "error") {
+    return (
+      <div
+        style={{
+          position: "fixed",
+          inset: 0,
+          display: "grid",
+          placeItems: "center",
+          fontFamily: "var(--font-mono)",
+          color: "var(--cu-muted)",
+          fontSize: 13,
+        }}
+      >
+        couldn't load universe data
+      </div>
+    );
+  }
+
   return (
-    <div style={{ padding: 40, display: "flex", flexDirection: "column", gap: 48, height: "100vh", overflow: "auto" }}>
-      {DEMO.map((item) => (
-        <div key={item.id} style={{ display: "flex", alignItems: "center", gap: 32 }}>
-          <Disc item={item} size={180} halo={item.category === "you"} />
-          <DiscMeta item={item} anchor={1_000_000} />
-        </div>
-      ))}
-    </div>
+    <ParallaxScene
+      items={sceneItems}
+      anchor={anchor}
+      scale={scale}
+      initialT={anchorProgress}
+    />
   );
 }
 
