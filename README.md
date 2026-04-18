@@ -20,6 +20,13 @@ npm run build         # typecheck + production build
 The daily data refresh runs in CI — see [`.github/workflows/refresh-data.yml`](.github/workflows/refresh-data.yml).
 Everything the browser needs is pre-computed into [`public/data/universe.json`](public/data/universe.json).
 
+## Deploy
+
+A push to `main` deploys the static build to GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+**One-time setup:** in the repo, go to _Settings → Pages → Build and deployment → Source_ and choose **GitHub Actions**.
+
+The data-refresh job commits into `main`, which triggers the deploy job automatically — so new market data appears on the live site within a few minutes of each nightly refresh.
+
 ## Layout
 
 - `src/` — the React app
